@@ -1,0 +1,392 @@
+﻿<!doctype html>
+
+<head>	
+
+<title>  STUDENTS CGP </title>
+
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+
+<style>
+		body{
+			margin:10px;
+			background:bisque;
+			}
+
+		select{
+				background-color:black;
+				color:white;
+				width:300px;
+				height:30px;
+				border:1px;
+				border-radius:10px;
+				text-align:center;
+				}
+					
+		button{
+			background-color:black;
+			color:white;
+			border:1px;
+			height:30px;
+			border-radius:10px;
+			text-align:center;
+			}
+		#grp{
+			margin-left:10px;
+			}
+
+</style>
+
+</head>
+
+<body>  
+		<h5> CUMMULATIVE GRADE POINT OF HASSAN UNIVERSITY AMANSEA </h5>
+		
+		<h5> DEPARTMENT OF COMPUTER SCIENCE </h5> <br>
+		
+		<div id="grp">
+		
+
+		<div id="pin"> 
+		
+		<form>
+				 				
+				<select id="regn"> <option> SELECT REG NUM </option> 
+						  <option> 2015514001 </option>
+						  <option> 2015514002 </option>
+						  <option> 2015514003 </option>
+						  <option> 2015514004 </option>
+						  <option> 2015514005 </option>
+						  <option> 2015514006 </option>
+						  <option> 2015514007 </option>
+						  <option> 2015514008 </option>
+						  <option> 2015514010 </option>
+						  <option> 2015514011 </option>
+						  <option> 2015514012 </option>
+						  <option> 2015514013 </option>
+						  <option> 2015514014 </option>
+						  <option> 2015514015 </option>
+						  <option> 2015514016 </option>
+						  <option> 2015514017 </option>
+						  <option> 2015514018 </option>
+						  <option> 2015514019 </option>
+						  <option> 2015514020 </option>
+						  
+			
+				 </select>		<br> <br> <br>
+				
+				<button> RESET </button> <br> <br> <br>
+				
+		</div>
+		
+		</form>
+		
+		<div>
+				<button id="veiw" name="vsi" onclick="viewall ()" > VIEW STUDENTS GP </button> 
+		</div>
+		
+		<h6 id="allinfo">
+		
+		</h6>
+		
+		<h6 id="allinfo1">
+		
+		</h6>
+		
+		<h6 id="allinfo2">
+		
+		</h6>
+		
+		</div>
+</body>
+
+<script>
+		function viewall () {
+		var stuna, dept, admy, regn;
+		
+		regn=document.getElementById("regn").value;
+		
+		if(regn==2015514001){
+		display = "NAME: OZUGHA JENNIFER " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 3.6" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514002){
+		display = "NAME: OKOLO SAMMY " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 4.6" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514003){
+		display = "NAME: CHIKA FRANCES " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: pending" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514004){
+		display = "NAME: PETER JACK " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 3.2" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514005){
+		display = "NAME: JASON COUGAR " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 2.5" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514006){
+		display = "NAME: MBONU CHISA " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 3.9" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514007){
+		display = "NAME: STANLEY DOLLFACE " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 3.8" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514008){
+		display = "NAME: OLLY GINIKA " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 3.3" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514009){
+		display = "NAME: VALAK BIBY " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 3.6" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514010){
+		display = "NAME: JOHNSON BABY " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 4.4" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514011){
+		display = "NAME: FABBY JANE " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 1.1" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514012){
+		display = "NAME: SLY SLYDER " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: pending" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514013){
+		display = "NAME: PRICETON GARY " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP:4.9" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514014){
+		display = "NAME: MADUBUCHI OKON " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 2.0" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514015){
+		display = "NAME: KING HARRY " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 4.6" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514016){
+		display = "NAME: DE-LANXI WILLIAMS GINIKA " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 3.7" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514017){
+		display = "NAME: KAODILI NMESOMA " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 4.1" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514018){
+		display = "NAME: STANLEY AUSTIN " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 3.6" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514019){
+		display = "NAME: JACKSON JACKSON JAY" + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 2.1" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		else if (regn==2015514020){
+		display = "NAME: TERRANCE PRINCE " + " " ;
+		
+		document.getElementById("allinfo").innerHTML=display;
+		
+		display1 = "REG NUM: " + regn + " " ;
+		
+		document.getElementById("allinfo1").innerHTML=display1;
+		
+		display2 = "GP: 3.9" + " " ;
+		
+		document.getElementById("allinfo2").innerHTML=display2;
+		}
+		
+		}
+		
+</script>
+
+</html> 
